@@ -1,0 +1,37 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "Forum",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "qid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeStamp",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Forum",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "qType",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "roomInfo.id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timeStamp",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

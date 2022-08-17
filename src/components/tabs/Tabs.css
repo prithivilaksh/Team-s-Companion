@@ -1,0 +1,28 @@
+.tab-bar {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  position: relative;
+  top: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  font-weight: 650;
+  font-size: 1.6rem;
+  z-index: 2;
+  box-shadow: 0px 0.5px #c0c0c0;
+  box-sizing: border-box;
+
+}
+
+.tab {
+  text-align: center;
+  color: blue;
+  height: 100%;
+}
+
+.tab.active {
+  color: black;
+  background-color: white;
+  border: 1px #ddd solid;
+  border-bottom-color: transparent;
+}

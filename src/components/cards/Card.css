@@ -1,0 +1,130 @@
+.event-card {
+  padding: 1.5vh 3vh 1.5vh 1.5vh;
+  margin: 1px;
+  font-weight: 600;
+  text-align: right;
+  color: white;
+  font-size: 0.9rem;
+  display: block;
+}
+.card{
+  position: fixed;
+  bottom: 20px;
+  width:80vw;
+}
+
+.card-content{
+  font-size: 1rem;
+}
+.card-list {
+  padding: 10px 10%;
+  display: flex;
+  flex-direction: column;
+}
+
+.small-gap {
+  margin-top: 1em;
+}
+
+.forum-card {
+  padding: 0.6em 0.7em;
+  border: 0.2px black solid;
+  border-radius: 3px;
+  margin: auto;
+  background-color: #ececec;
+  justify-content: left;
+  text-align: left;
+  margin-top: 1.3rem;
+  margin-bottom: 0.3rem;
+  position: relative;
+  color: #2C3A47;
+}
+
+.super-tag {
+  min-width: 6rem;
+  color: white;
+  font-weight: 400;
+  padding: 0.3em 0.3em;
+  line-height: 1;
+  white-space: "nowrap";
+  text-decoration: "none";
+  text-align: center;
+  border: 1px black solid;
+  border-radius: 3px;
+  font-size: 0.74em;
+  position: absolute;
+  top: 0;
+  right: 0;
+};
+
+.carousel-item-show {
+  display: block;
+}
+
+.carousel-item-hide {
+  display: none;
+}
+
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.carousel-holder {
+  width: 90%;
+  /* height: 100%; */
+  margin:0;
+}
+
+.carousel-arrow-left {
+  float: left;
+  padding-left: 3%;
+  height: 100%;
+  border-top: auto;
+  border-bottom: auto;
+  display: table;
+}
+
+.carousel-arrow-left img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.carousel-arrow-right {
+  float: right;
+  padding-right:3% ;
+  height: 100%;
+  margin-left:0;
+  border-top: auto;
+  border-bottom: auto;
+  display: table;
+
+}
+
+.carousel-arrow-right img {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.carousel-arrow {
+  width: 1.2rem;
+}
+.qa-content{
+  font-size: 0.9rem;
+  text-align: left;
+}
+.qa-content img{
+  width:80vw;
+}
+.qa-title{
+  font-weight: 600;
+  /* text-align: left; */
+  margin-bottom: 10px;
+}
+.qa-holder{
+  border-bottom: 1px solid rgb(119, 119, 119);
+}

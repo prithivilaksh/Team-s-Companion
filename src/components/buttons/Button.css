@@ -1,0 +1,37 @@
+.image-button {
+  text-transform: none;
+  border: 1px black solid;
+  color: black;
+  box-shadow: 1px 1px grey;
+  font-weight: 500;
+  width: 50%;
+  min-width: 220px;
+  max-width: 400px;
+  background-color: white !important;
+}
+
+.image-button:hover {
+  background-color: rgba(0, 0, 0, 0.658) !important;
+}
+
+.image-button-icon-only {
+  text-transform: none;
+  border: 1px black solid;
+  color: black;
+  font-weight: 500;
+  background-color: white !important;
+}
+
+.image-button-icon-only:hover {
+  background-color: rgba(0, 0, 0, 0.658) !important;
+}
+
+.image-button-icon-only:hover .image-button-icon {
+  filter: invert(100%);
+}
+
+.image-button-icon {
+  width: 20px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+}
